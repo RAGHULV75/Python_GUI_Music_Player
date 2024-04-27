@@ -21,3 +21,6 @@ The code consists of several functions and one main script. The functions are:
 The main script creates a Tk window with a title, geometry, and resizable settings. It also creates a label widget with some text, a button widget with an About command, a frame widget to hold the play_list listbox widget and another frame widget to hold the other button widgets. It also creates a label widget to display the song_title. It then binds each button widget to its corresponding function. Finally, it enters the main loop of tkinter.
 
 The code uses docstrings to document each function and module according to PEP 257 conventions. It also uses type hints to provide automatic type information for parameters and return values according to PEP 484 conventions. It also uses comments to explain some parts of the code that are not obvious or need clarification.
+
+
+![music_player](https://github.com/RAGHULV75/Python_GUI_Music_Player/assets/168255383/74b79a6d-25a6-4186-9b63-7323ff2e3745)
