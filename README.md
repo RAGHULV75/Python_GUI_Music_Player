@@ -1,6 +1,45 @@
 # Python_GUI_Music_Player
 Python GUI Based Music Player for Windows
 
+Music Player
+
+This Python code implements a music player application using tkinter and Pygame libraries. It allows users to:
+
+* Browse and add music files from a selected directory.
+* View a list of added songs.
+* Play, stop, pause, and unpause the selected song.
+* Display the currently playing song's title.
+* Access an "About" dialog for application information.
+
+**Features:**
+
+* User-friendly interface with tkinter for buttons and list display.
+* Pygame integration for music playback functionalities.
+* Song browsing and adding capabilities.
+* Song playback controls (play, stop, pause, unpause).
+* Informative "About" dialog.
+
+**How to Use:**
+
+1. Clone or download the repository containing this code.
+2. Install the required libraries: `pip install tkinter pygame`
+3. Run the script: `python music_player.py` (replace with the actual filename)
+4. Use the "Browse" button to select a directory containing music files.
+5. Music files from the selected directory will be added to the list.
+6. Select a song from the list and use the playback controls.
+7. Click "About" for application information.
+
+**Dependencies:**
+
+* tkinter (part of Python standard library, may need installation on some systems)
+* Pygame (https://www.pygame.org/)
+
+**Author:**
+  RAGHUL V
+
+**Version:**
+  1.0
+
 The code is a simple music player application that uses pygame, tkinter, PySimpleGUI, and os modules. The code has the following features:
 
 - It allows the user to browse and select a directory that contains music files.
@@ -17,10 +56,6 @@ The code consists of several functions and one main script. The functions are:
 - pause(): This function pauses the music playback using pygame.mixer.music.pause().
 - unpause(): This function resumes the music playback using pygame.mixer.music.unpause().
 - helloCallBack(): This function shows a popup window using PySimpleGUI.popup() with some information about the application and its developer.
-
-The main script creates a Tk window with a title, geometry, and resizable settings. It also creates a label widget with some text, a button widget with an About command, a frame widget to hold the play_list listbox widget and another frame widget to hold the other button widgets. It also creates a label widget to display the song_title. It then binds each button widget to its corresponding function. Finally, it enters the main loop of tkinter.
-
-The code uses docstrings to document each function and module according to PEP 257 conventions. It also uses type hints to provide automatic type information for parameters and return values according to PEP 484 conventions. It also uses comments to explain some parts of the code that are not obvious or need clarification.
 
 
 ![music_player](https://github.com/RAGHULV75/Python_GUI_Music_Player/assets/168255383/74b79a6d-25a6-4186-9b63-7323ff2e3745)
